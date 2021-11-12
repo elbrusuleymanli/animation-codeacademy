@@ -1,0 +1,77 @@
+.anime {
+  display: flex;
+  justify-content: center;
+}
+.animation {
+  width: 26rem;
+  height: 4.5rem;
+  background-color: rgb(255, 149, 28);
+  border-radius: 0.5rem;
+  animation: Task 2s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes Task {
+  from {
+    top: 0;
+    width: 26rem;
+  }
+
+  to {
+    top: 200px;
+    background-color: black;
+    width: 1rem;
+  }
+}
+.anime-ball {
+  margin: 8rem 0 0 30rem;
+}
+.ball {
+  background-color: rgb(65, 65, 214);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(65, 65, 214);
+  animation: Ball 2s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  position: relative;
+}
+@keyframes Ball {
+  from {
+    transform: translateX(500%);
+  }
+  to {
+    background-color: rgb(238, 39, 39);
+    border: 1px solid rgb(238, 39, 39) ;
+  }
+}.anime-ball1 {
+  margin: 0rem 0rem 0 45.7rem ;
+   position: relative;
+}
+.ball1 {
+  background-color: rgb(65, 65, 214);;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(65, 65, 214);
+  animation: Ball1 2s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  position: absolute;
+  top: -51px;
+ 
+}
+@keyframes Ball1 {
+  from {
+    
+    transform: translateX(570%);
+  
+  }
+  to {
+    background-color: rgb(238, 39, 39);
+    border: 1px solid rgb(238, 39, 39) ;
+  }
+}
