@@ -1,0 +1,21 @@
+.international-sertificate:hover {
+  box-shadow: 0 0.7rem 2rem 0 rgb(0 0 0 / 0.09);
+  background-color: white;
+  transition: .2s;
+}
+
+.talent-center:hover {
+  box-shadow: 0 0.7rem 2rem 0 rgb(0 0 0 / 0.09);
+  background-color: white;
+  transition: .2s;
+}
+.guarator-education:hover {
+  box-shadow: 0 0.7rem 2rem 0 rgb(0 0 0 / 0.09);
+  background-color: white;
+  transition: .2s;
+}
+.mentor-system:hover {
+  box-shadow: 0 0.7rem 2rem 0 rgb(0 0 0 / 0.09);
+  background-color: white;
+  transition: .2s;
+}

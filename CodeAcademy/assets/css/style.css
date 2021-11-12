@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url(/assets/font/OnlineWebFonts_COM_c18a38ca880414dc09dbb9ed7aed008b/Visby\ CF\ Bold/);
+}
+
+.container {
+  padding-bottom: 5rem;
+  margin: 6rem 11rem 0 11rem;
+}
+
+img:not(.logo-line img) {
+  height: 12rem;
+  width: 12rem;
+  object-fit: cover;
+}
+.logo-line {
+  padding: 0.7rem 0 1rem 0;
+}
+.topic {
+  padding-left: 2rem;
+}
+p {
+  line-height: 1.5;
+  opacity: 0.8;
+}
+p,
+h3,
+h2,
+h1,
+a {
+  font-family: "Lato", "MyFont", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  opacity: 0.8;
+}
+h3 {
+  opacity: 0.8;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.cards .inter-about,
+.talent-about,
+.guar-about,
+.mentor-about {
+  padding-left: 3.3rem;
+  text-align: justify;
+  align-self: flex-end;
+}
+.cards p {
+  padding-top: 1rem;
+}
+
+h2 {
+  opacity: 0.8;
+  font-size: 2.7rem;
+}
+.international-sertificate,
+.talent-center,
+.guarator-education,
+.mentor-system {
+  display: flex;
+  padding: 1.5rem 2rem 4rem 2rem;
+  cursor: pointer;
+}
